@@ -1,4 +1,4 @@
-import {ExperienceItem} from './ExperiencieItem';
+import { ExperienceItem } from './ExperiencieItem';
 
 const EXPERIENCIE = [
   {

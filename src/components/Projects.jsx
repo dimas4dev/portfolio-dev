@@ -1,43 +1,43 @@
 
-import GitHub from './icons/GitHub';
-import NextJS from './icons/NextJS';
-import Tailwind from './icons/Tailwind';
-import LinkButton from './LinkButton';
+import { GitHubIcon } from './icons/GitHub';
+import { NextJsIcon } from './icons/NextJs';
+import { TailwindIcon } from './icons/Tailwind';
+import { LinkButton } from './LinkButton';
 
 export const Projects = () => {
-    const TAGS = {
-        NEXT: {
-          name: "Next.js",
-          class: "bg-black text-white",
-          icon: NextJS,
-        },
-        TAILWIND: {
-          name: "Tailwind CSS",
-          class: "bg-[#003159] text-white",
-          icon: Tailwind,
-        },
-      };
-      
-      const PROJECTS = [
-          {
-            title: "SVGL - A beautiful library with SVG logos",
-            description:
-              "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-            link: "https://svgl.vercel.app/",
-            github: "https://github.com/pheralb/svgl",
-            image: "/projects/svgl.webp",
-            tags: [TAGS.NEXT, TAGS.TAILWIND],
-          },
-          {
-            title: "AdventJS - Retos de programación con JavaScript y TypeScript",
-            description:
-              "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS",
-            link: "https://adventjs.dev",
-            image: "/projects/adventjs.webp",
-            tags: [TAGS.NEXT, TAGS.TAILWIND],
-          },
-        ]
-      
+  const TAGS = {
+    NEXT: {
+      name: "Next.js",
+      className: "bg-black text-white",
+      icon: NextJsIcon,
+    },
+    TAILWIND: {
+      name: "Tailwind CSS",
+      className: "bg-[#003159] text-white",
+      icon: TailwindIcon,
+    },
+  };
+
+  const PROJECTS = [
+    {
+      title: "SVGL - A beautiful library with SVG logos",
+      description:
+        "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
+      link: "https://svgl.vercel.app/",
+      github: "https://github.com/pheralb/svgl",
+      image: "/projects/svgl.webp",
+      tags: [TAGS.NEXT, TAGS.TAILWIND],
+    },
+    {
+      title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+      description:
+        "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS",
+      link: "https://adventjs.dev",
+      image: "/projects/adventjs.webp",
+      tags: [TAGS.NEXT, TAGS.TAILWIND],
+    },
+  ]
+
   return (
     <section className="flex flex-col gap-y-16">
       {PROJECTS.map(({ image, title, description, tags, link, github }, index) => (
@@ -49,7 +49,7 @@ export const Projects = () => {
               const TagIcon = tag.icon;
               return (
                 <li key={tagIndex}>
-                  <span className={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2`}>
+                  <span className={`flex gap-x-2 rounded-full text-xs ${tag.className} py-1 px-2`}>
                     <TagIcon className="size-4" />
                     {tag.name}
                   </span>
@@ -66,7 +66,7 @@ export const Projects = () => {
           <footer className="flex gap-x-4 items-end justify-start mt-4">
             {github && (
               <LinkButton href={github}>
-                <GitHub className="size-6" />
+                <GitHubIcon className="size-6" />
                 Ver código fuente
               </LinkButton>
             )}
