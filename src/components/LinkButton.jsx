@@ -1,4 +1,4 @@
-export const MyLinkComponent = ({ href, children }) => {
+export const LinkButton = ({ href, children }) => {
   return (
     <a
       href={href}
