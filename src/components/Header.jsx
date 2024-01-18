@@ -1,4 +1,4 @@
-export const Header = () => {
+const Header = () => {
     return (
         <header className='flex justify-center items-center mx-auto py-5 sticky top-0 w-full xl:w-[1120px] z-10'>
             <nav
@@ -20,3 +20,5 @@ export const Header = () => {
         </header>
     );
 };
+
+export default Header;

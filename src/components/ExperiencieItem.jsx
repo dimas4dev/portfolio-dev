@@ -1,6 +1,6 @@
-import { LinkButton } from './LinkButton';
+import  LinkButton  from './LinkButton';
 
-export const ExperienceItem = ({ title, description, link, date }) => {
+const ExperienceItem = ({ title, description, link, date }) => {
   return (
     <>
       <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-gray-700"></div>
@@ -29,3 +29,5 @@ export const ExperienceItem = ({ title, description, link, date }) => {
     </>
   );
 };
+
+export default ExperienceItem;

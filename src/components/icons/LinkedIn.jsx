@@ -1,9 +1,9 @@
-export const LinkedInIcon = (props) => {
+const LinkedInIcon = (props) => {
   return (
     <svg
       {...props}
-      width="256"
-      height="256"
+      width="24"
+      height="24"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMidYMid"
       viewBox="0 0 256 256"
@@ -12,3 +12,5 @@ export const LinkedInIcon = (props) => {
       fill="currentColor"></path></svg>
   )
 }
+
+export default LinkedInIcon

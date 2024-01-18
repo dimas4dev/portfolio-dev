@@ -1,6 +1,6 @@
-import 'styles/Card.css';
+import './styles/Card.css';
 
-export const Card = ({ title, body, href }) => {
+const Card = ({ title, body, href }) => {
     return (
         <li className="link-card">
             <a href={href}>
@@ -10,3 +10,5 @@ export const Card = ({ title, body, href }) => {
         </li>
     );
 };
+
+export default Card;

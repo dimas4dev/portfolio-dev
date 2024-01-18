@@ -1,10 +1,10 @@
 
-import { GitHubIcon } from './icons/GitHub';
-import { NextJsIcon } from './icons/NextJs';
-import { TailwindIcon } from './icons/Tailwind';
-import { LinkButton } from './LinkButton';
+import  GitHubIcon  from './icons/GitHub';
+import  NextJsIcon  from './icons/NextJs';
+import  TailwindIcon  from './icons/Tailwind';
+import  LinkButton  from './LinkButton';
 
-export const Projects = () => {
+const Projects = () => {
   const TAGS = {
     NEXT: {
       name: "Next.js",
@@ -77,3 +77,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects;

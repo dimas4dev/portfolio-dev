@@ -1,4 +1,4 @@
-export const NextJsIcon = (props) => {
+const NextJsIcon = (props) => {
   return (
     <svg
       {...props}
@@ -33,3 +33,5 @@ export const NextJsIcon = (props) => {
     </svg>
   )
 }
+
+export default NextJsIcon

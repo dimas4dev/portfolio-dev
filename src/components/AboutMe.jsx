@@ -1,4 +1,4 @@
-export const AboutMe = () => {
+const AboutMe = () => {
     return (
         <section className="flex flex-col md:flex-row gap-8 justify-center items-center">
             <div className="[&>p]:mb-4 [&>p>strong]:text-yellow-400 [&>p>strong]:font-semibold text-pretty order-2 md:order-1">
@@ -11,3 +11,5 @@ export const AboutMe = () => {
         </section>
     )
 }
+
+export default AboutMe

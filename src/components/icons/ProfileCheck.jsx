@@ -1,4 +1,4 @@
-export const ProfileCheckIcon = (props) => {
+const ProfileCheckIcon = (props) => {
   return (
     <svg
       {...props}
@@ -15,3 +15,5 @@ export const ProfileCheckIcon = (props) => {
         d="M6 21v-2a4 4 0 0 1 4 -4h4"></path><path d="M15 19l2 2l4 -4"></path></svg>
   )
 }
+
+export default ProfileCheckIcon

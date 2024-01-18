@@ -1,4 +1,4 @@
-import { ExperienceItem } from './ExperiencieItem';
+import ExperienceItem from './ExperiencieItem';
 
 const EXPERIENCIE = [
   {
@@ -14,7 +14,7 @@ const EXPERIENCIE = [
   },
 ];
 
-export const Experiencie = () => {
+const Experiencie = () => {
   return (
     <ol className="relative border-s border-gray-200 ml-3">
       {EXPERIENCIE.map((experience, index) => (
@@ -25,3 +25,5 @@ export const Experiencie = () => {
     </ol>
   );
 };
+
+export default Experiencie;

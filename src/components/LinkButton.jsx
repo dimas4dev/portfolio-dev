@@ -1,4 +1,4 @@
-export const LinkButton = ({ href, children }) => {
+const LinkButton = ({ href, children }) => {
   return (
     <a
       href={href}
@@ -8,3 +8,5 @@ export const LinkButton = ({ href, children }) => {
     </a>
   );
 };
+
+export default LinkButton;

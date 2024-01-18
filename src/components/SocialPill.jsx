@@ -1,5 +1,4 @@
-export const SocialPill = ({ href, children }) => {
-  return (
+const SocialPill = ({ href, children }) => (
     <a
       href={href}
       className={`
@@ -18,4 +17,5 @@ export const SocialPill = ({ href, children }) => {
       {children}
     </a>
   );
-};
+
+export default SocialPill;

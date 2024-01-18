@@ -1,11 +1,13 @@
-export const SectionContainer = ({ className, id }) => {
+const SectionContainer = ({ className='', id, children}) => {
     return (
         <section
             id={id}
             data-section={id}
             className={`section ${className} w-full mx-auto lg:w-[740px] pb-24`}
         >
-            <slot />
+            {children}
         </section>
     )
 }
+
+export default SectionContainer

@@ -1,4 +1,4 @@
-export const TailwindIcon = (props) => {
+const TailwindIcon = (props) => {
   return (
     <svg
       {...props}
@@ -16,3 +16,5 @@ export const TailwindIcon = (props) => {
     </svg>
   )
 }
+
+export default TailwindIcon

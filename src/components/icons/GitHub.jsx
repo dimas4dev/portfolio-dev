@@ -1,9 +1,9 @@
-export const GitHubIcon = (props) => {
+const GitHubIcon = (props) => {
   return (
     <svg
   {...props}
-  width="256"
-  height="250"
+  width="24"
+  height="24"
   fill="currentColor"
   xmlns="http://www.w3.org/2000/svg"
   preserveAspectRatio="xMidYMid"
@@ -13,3 +13,5 @@ export const GitHubIcon = (props) => {
   ></path></svg>
   )
 }
+
+export default GitHubIcon

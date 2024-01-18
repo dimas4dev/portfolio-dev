@@ -1,4 +1,4 @@
-export const BriefcaseIcon = (props) => {
+const BriefcaseIcon = (props) => {
   return (
     <svg
       {...props}
@@ -16,3 +16,5 @@ export const BriefcaseIcon = (props) => {
       d="M12 12l0 .01"></path><path d="M3 13a20 20 0 0 0 18 0"></path></svg>
   )
 }
+
+export default BriefcaseIcon

@@ -1,4 +1,4 @@
-export const CodeIcon = (props) => {
+const CodeIcon = (props) => {
   return (
     <svg
       {...props}
@@ -17,3 +17,5 @@ export const CodeIcon = (props) => {
           d="M14 4l-4 16"></path></svg>
   )
 }
+
+export default CodeIcon

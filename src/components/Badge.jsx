@@ -1,4 +1,4 @@
-export const Badge = () => {
+const Badge = ({ children }) => {
     return (
         <div>
             <span className="relative flex overflow-hidden rounded-full p-[1px]">
@@ -7,9 +7,11 @@ export const Badge = () => {
                 ></span>
                 <div
                     className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950/90 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl whitespace-nowrap">
-                    <slot />
+                    {children}
                 </div>
             </span>
         </div>
     )
 }
+
+export default Badge
