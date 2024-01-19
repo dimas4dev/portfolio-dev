@@ -1,0 +1,49 @@
+{
+    "title": "Porfolio de dimas4dev - Desarrollador y Programador Web",
+    "description": "Elige a Dimas4Dev para el desarrollo innovador de tus proyectos web y móviles. Experto en Desarrollo Web y Diseño de Experiencia de Usuario, enfocado en entregar soluciones digitales personalizadas y creativas.",
+    "presentationHeading": "¡Hola!, soy Dimas4Dev",
+    "presentationSubheading": "Con más de 7 años de experiencia en tecnología y 3.5 años especializándome en desarrollo web, ofrezco soluciones innovadoras y personalizadas. Radicado en Bogotá, Colombia, me dedico a crear aplicaciones web únicas y aportar contenido valioso en el campo del desarrollo tecnológico.",
+    "availableToWork": "Disponible para trabajar",
+    "experienceSectionTitle": "Experiencia laboral",
+    "projectsSectionTitle": "Proyectos",
+    "aboutMeSectionTitle": "Sobre mí",
+    "contactEmail": "me@dimas4dev.com",
+    "experiencie": [
+        {
+            "date": "Julio de 2023 - Presente (7 meses)",
+            "title": "Desarrollador Frontend - LinkTIC",
+            "location": "Bogotá, Distrito Capital, Colombia",
+            "description": "Encargado del desarrollo de una solución integral para testigos y delegados electorales, facilitando la interacción, reporte de incidencias y comunicación eficiente. Implementación de una interfaz web con VueJS y Vuetify, y desarrollo de una aplicación móvil con React y Capacitor. Gestión de backend y servicios en AWS."
+        },
+        {
+            "date": "Julio de 2022 - Mayo de 2023 (11 meses)",
+            "title": "Ingeniero de Software - Mercado Libre",
+            "location": "Bogotá, Distrito Capital, Colombia",
+            "description": "Especializado en el frontend para Mercado Shops utilizando Nordic framework. Realización de maquetación de productos, pruebas de componentes con JEST y proyectos en backend con Go. Colaboración en equipo para integración y resolución de problemas técnicos."
+        },
+        {
+            "date": "Febrero de 2022 - Julio de 2022 (6 meses)",
+            "title": "Desarrollador Web Frontend ReactJS - TICSOCIAL",
+            "location": "Bogotá, Distrito Capital, Colombia",
+            "description": "Responsable del proyecto de optimización de aplicación usando webpack, diseño de interfaces de usuario y colaboración interdisciplinaria para mejorar la experiencia del usuario final."
+        },
+        {
+            "date": "Junio de 2021 - Septiembre de 2021 (4 meses)",
+            "title": "Desarrollador Front End ReactJs - ITGlobers",
+            "location": "Bogotá, Distrito Capital, Colombia",
+            "description": "Trabajé con el Framework de VTEX, especializándome en integración de APIs y diseño de interfaces de usuario, con enfoque en la funcionalidad y la integración de sistemas."
+        },
+        {
+            "date": "Octubre de 2018 - Mayo de 2021 (2 años 8 meses)",
+            "title": "Desarrollador BPM/SOA - CORUS Consulting",
+            "location": "Bogotá, Distrito Capital, Colombia",
+            "description": "Operador de operaciones y conservación de sistemas Linux, enfocado en la disponibilidad, estabilidad y seguridad de los servidores Linux, incluyendo su administración y optimización."
+        },
+        {
+            "date": "Febrero de 2018 - Agosto de 2018 (7 meses)",
+            "title": "Desarrollador Fullstack - Este es mi bus",
+            "location": "Bogotá D.C., Colombia",
+            "description": "Encargado del diseño, creación y despliegue de una plataforma para cálculos entre paradas de autobús. Responsable del diseño visual, base de datos y lógica de backend, utilizando PHP."
+        }
+    ]
+}
