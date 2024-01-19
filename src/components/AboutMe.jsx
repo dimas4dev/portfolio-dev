@@ -8,6 +8,7 @@ const AboutMe = () => {
 
                 <p>Como creador de contenido, <strong>cuento con el canal de habla hispana más visto del mundo en la categoría de <em className="italic">Software & Game Development</em> en Twitch</strong>. Mi objetivo es mejorar la empleabilidad de la comunidad hispana y el acceso a contenido de calidad.</p>
             </div>
+            <img src="/dimasNormie.webp" class="rounded-full size-96 order-1 md:order-2" />
         </section>
     )
 }
