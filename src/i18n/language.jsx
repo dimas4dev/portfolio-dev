@@ -80,7 +80,7 @@ export const languageDatabase = {
         "date": "Actualmente...",
         "title": "Desarrollador Frontend - LinkTIC",
         "location": "Bogotá, Distrito Capital, Colombia",
-        "description": "Encargado del desarrollo de una solución integral para testigos y delegados electorales, facilitando la interacción, reporte de incidencias y comunicación eficiente. Implementación de una interfaz web con VueJS y Vuetify, y desarrollo de una aplicación móvil con React y Capacitor. Gestión de backend y servicios en AWS."
+        "description": "Encargado del desarrollo de una solución integral para testigos y delegados electorales, facilitando la interacción, reporte de incidencias y comunicación eficiente. Implementación de una interfaz web con VueJS y Vuetify, y desarrollo de una aplicación móvil con React y Capacitor."
       },
       {
         "date": "Julio de 2022 - Mayo de 2023 (11 meses)",
@@ -164,36 +164,41 @@ export const languageDatabase = {
     "aboutMeObjective06": "transmitirlo a través de un blog,",
     "aboutMeObjective07": "pero este no se lograra escribiendo de la manera regular, sino a través de",    
     "aboutMeObjective08": "historias que puedan facilitar el aprendizaje.",
-    "aboutMeObjective09": "Esta es una parte de mi,si quieres saber mas de mi contactame y charlemos. Te dejo un formulario para que me escribas.",
+    "aboutMeObjective09": "Esta es una parte de mi,si quieres saber mas de mi contactame y charlemos.",
+    "dimas4dev":"dimas4dev",
+    "rights":"Casi todos los derechos reservados"
   },
-  "en": {
+  "en":{
     "title": "Dimas4Dev's Portfolio - Web Developer and Programmer",
-    "description": "Choose Dimas4Dev for innovative development of your web and mobile projects. Expert in Web Development and User Experience Design, focused on delivering personalized and creative digital solutions.",
+    "description": "Choose Dimas4Dev for the innovative development of your web and mobile projects. An expert in Web Development and User Experience Design, focused on delivering personalized and creative digital solutions.",
     "presentationHeading": "Hello, I'm Dimas4Dev",
-    "presentationSubheading": "With over 7 years of experience in technology and 3.5 years specializing in web development, I offer innovative and customized solutions. Based in Bogotá, Colombia, I am dedicated to creating unique web applications and contributing valuable content in the field of technological development.",
+    "yearsExperiencie": "With around 7 years of experience in technology and 3.5 years specializing in web development,",
+    "occupation": "I offer innovative and customized solutions.",
+    "location": "Based in Bogotá, Colombia,",
+    "proposal": "I am dedicated to creating unique web applications and contributing valuable content in the field of technological development.",
     "availableToWork": "Available to Work",
     "experienceSectionTitle": "Work Experience",
     "projectsSectionTitle": "Projects",
     "aboutMeSectionTitle": "About Me",
     "contactEmail": "me@dimas4dev.com",
-    "experiencie": [
+    "experience": [
       {
         "date": "Currently...",
         "title": "Frontend Developer - LinkTIC",
         "location": "Bogotá, Distrito Capital, Colombia",
-        "description": "In charge of developing a comprehensive solution for electoral witnesses and delegates, facilitating interaction, incident reporting, and efficient communication. Implementation of a web interface with VueJS and Vuetify, and development of a mobile application with React and Capacitor. Management of backend and services on AWS."
+        "description": "In charge of developing a comprehensive solution for electoral witnesses and delegates, facilitating interaction, incident reporting, and efficient communication. Implemented a web interface with VueJS and Vuetify, and developed a mobile application with React and Capacitor. Managed backend and services on AWS."
       },
       {
         "date": "July 2022 - May 2023 (11 months)",
         "title": "Software Engineer - Mercado Libre",
         "location": "Bogotá, Distrito Capital, Colombia",
-        "description": "Specialized in frontend for Mercado Shops using the Nordic framework. Carried out product layout, component testing with JEST, and backend projects using Go. Collaborated with the team for integration and quick and efficient resolution of technical issues."
+        "description": "Specialized in the frontend for Mercado Shops using the Nordic framework. Performed product layout, component testing with JEST, and backend projects using Go. Collaborated with the team for integration and technical problem resolution."
       },
       {
         "date": "February 2022 - July 2022 (6 months)",
-        "title": "Frontend Web Developer ReactJS - TICSOCIAL",
+        "title": "Web Frontend Developer ReactJS - TICSOCIAL",
         "location": "Bogotá, Distrito Capital, Colombia",
-        "description": "Responsible for optimizing the application using webpack, designing high-quality user interfaces, and close collaboration with other teams to ensure excellence in the end-user experience."
+        "description": "Responsible for optimizing the application using webpack, designing user interfaces, and interdisciplinary collaboration to enhance the end-user experience."
       },
       {
         "date": "June 2021 - September 2021 (4 months)",
@@ -205,21 +210,105 @@ export const languageDatabase = {
         "date": "October 2018 - May 2021 (2 years 8 months)",
         "title": "BPM/SOA Developer - CORUS Consulting",
         "location": "Bogotá, Distrito Capital, Colombia",
-        "description": "Operations operator and conservation of Linux systems, focused on the availability, stability, and security of Linux servers, including their efficient administration and optimization."
+        "description": "Operations and maintenance operator for Linux systems, focused on the availability, stability, and security of Linux servers, including their administration and optimization."
       },
       {
         "date": "February 2018 - August 2018 (7 months)",
         "title": "Fullstack Developer - This is my bus",
         "location": "Bogotá D.C., Colombia",
-        "description": "In charge of designing, creating, and deploying a platform for calculations between bus stops. Responsible for the visual design, database, and backend logic, using PHP."
+        "description": "Responsible for designing, creating, and deploying a platform for calculations between bus stops. Accountable for the visual design, database, and backend logic, using PHP."
       }
     ],
-    "language": "English",
+    "language": "Spanish",
     "experienceLabel": "Experience",
     "projectsLabel": "Projects",
     "aboutMeLabel": "About Me",
     "contactLabel": "Contact",
-    "englishLabel": "English",
-  }
+    "spanishLabel": "Spanish",
+    "experiencie": [
+      {
+          "date": "Currently...",
+          "title": "Frontend Developer - LinkTIC",
+          "location": "Bogotá, Distrito Capital, Colombia",
+          "description": "Responsible for developing a comprehensive solution for electoral witnesses and delegates, facilitating interaction, incident reporting, and efficient communication. Implemented a web interface with VueJS and Vuetify, and developed a mobile application with React and Capacitor. Managed backend and services on AWS."
+      },
+      {
+          "date": "July 2022 - May 2023 (11 months)",
+          "title": "Software Engineer - Mercado Libre",
+          "location": "Bogotá, Distrito Capital, Colombia",
+          "description": "Specialized in the frontend for Mercado Shops using the Nordic framework. Conducted product layout, component testing with JEST, and backend projects using Go. Collaborated with the team for integration and resolution of technical problems."
+      },
+      {
+          "date": "February 2022 - July 2022 (6 months)",
+          "title": "Web Frontend Developer ReactJS - TICSOCIAL",
+          "location": "Bogotá, Distrito Capital, Colombia",
+          "description": "Responsible for the project of optimizing the application using webpack, designing user interfaces, and interdisciplinary collaboration to improve the end-user experience."
+      },
+      {
+          "date": "June 2021 - September 2021 (4 months)",
+          "title": "Front End Developer ReactJs - ITGlobers",
+          "location": "Bogotá, Distrito Capital, Colombia",
+          "description": "Worked with the VTEX Framework, specializing in API integration and user interface design, with a focus on functionality and system integration."
+      },
+      {
+          "date": "October 2018 - May 2021 (2 years 8 months)",
+          "title": "BPM/SOA Developer - CORUS Consulting",
+          "location": "Bogotá, Distrito Capital, Colombia",
+          "description": "Operations operator and conservation of Linux systems, focused on the availability, stability, and security of Linux servers, including their administration and optimization."
+      },
+      {
+          "date": "February 2018 - August 2018 (7 months)",
+          "title": "Fullstack Developer - This is my bus",
+          "location": "Bogotá D.C., Colombia",
+          "description": "In charge of the design, creation, and deployment of a platform for calculations between bus stops. Responsible for the visual design, database, and backend logic, using PHP."
+      }
+  ],
+  
+    "projects": [
+      {
+        "title": "FaroPsicopedagogía Maintenance",
+        "description": "I maintained a social platform on WordPress, deployed on Azure DevOps. My responsibilities included content updating, performance optimization, and managing site security.",
+        "link": "https://faropsicopedagogia.org",
+        "image": "/projects/faro.webp",
+        "tags": [TAGS.WORDPRESS, TAGS.AZURE]
+      },
+      {
+        "title": "Electoral Witnesses",
+        "description": "I developed key frontend functionalities for an electoral witness application using Nuxt and Vuetify. This project, deployed on AWS, significantly improved user interaction and incident reporting.",
+        "tags": [TAGS.NUXT, TAGS.VUETIFY]
+      },
+      {
+        "title": "Frontend Development at MercadoLibre",
+        "description": "I participated in the complete frontend development for MercadoLibre using the Nordic framework and AndesUI component library, contributing to a richer and more accessible user experience.",
+        "image": "/projects/SEOMeli.webp",
+        "tags": [TAGS.NORDIC, TAGS.ANDESUI]
+      },
+      {
+        "title": "Trackeum Development",
+        "description": "At Trackeum, I was in charge of designing and developing interfaces using React and Material UI, achieving an intuitive and efficient user experience. The product was deployed on AWS, ensuring high availability and scalability.",
+        "link": "https://trackeum.ticsocial.com.co/",
+        "image": "/projects/trackeum.webp",
+        "tags": [TAGS.REACT, TAGS.MATERIALUI]
+      }
+    ],
+    "sourceCode": "View Source Code",
+    "aboutMeName": "My name is Dimas Mendoza,",
+    "webDeveloper": "I am a Web Developer,",
+    "aboutMeTime": "I have worked for several years in technology, I have taken advantage of my talent to work on different projects, but now I want",
+    "aboutMeProposal": "to build software that helps people.",
+    "aboutMeProposal0": "to be able to use what I have learned and",
+    "aboutMeProposal01": "One of my goals is",
+    "aboutMeObjective02": "to learn from the best,",
+    "aboutMeObjective03": "To be able to",
+    "aboutMeObjective04": "help people who do not have access to this type of knowledge.",
+    "aboutMeObjective05": "This knowledge is essential to share and I want",
+    "aboutMeObjective06": "to transmit it through a blog,",
+    "aboutMeObjective07": "but this will not be achieved by writing in the regular way, but through",
+    "aboutMeObjective08": "stories that can facilitate learning.",
+    "aboutMeObjective09": "This is a part of me, if you want to know more about me contact me and let's chat.",
+    "dimas4dev": "dimas4dev",
+    "rights": "Almost all rights reserved"
+}
+
 
 }

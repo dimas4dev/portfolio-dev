@@ -43,7 +43,7 @@ const Header = () => {
                     href="/#sobre-mi">{languageFile.aboutMeLabel}</a>
                 <a
                     className="hover:bg-white/10 rounded-full px-2 sm:px-3 transition text-sm sm:text-base"
-                    href="/#contacto">{languageFile.contactLabel}</a>
+                    href="/#presentation">{languageFile.contactLabel}</a>
                 <div className="relative" onClick={toggleMenu}>
                     <Badge backgroundColor="bg-blue-200">
                         <IconFlag style={{ width: "32px", height: "32px" }} />
