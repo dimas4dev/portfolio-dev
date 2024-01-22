@@ -2,19 +2,19 @@ const AzureIcon = (props) => (
     <svg {...props} viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
         <defs>
             <linearGradient id="a" x1="-1032.17" x2="-1059.21" y1="145.31" y2="65.43" gradientTransform="matrix(1 0 0 -1 1075 158)" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#114a8b" />
-                <stop offset="1" stop-color="#0669bc" />
+                <stop offset="0" stopColor="#114a8b" />
+                <stop offset="1" stopColor="#0669bc" />
             </linearGradient>
             <linearGradient id="b" x1="-1023.73" x2="-1029.98" y1="108.08" y2="105.97" gradientTransform="matrix(1 0 0 -1 1075 158)" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-opacity=".3" />
-                <stop offset=".07" stop-opacity=".2" />
-                <stop offset=".32" stop-opacity=".1" />
-                <stop offset=".62" stop-opacity=".05" />
-                <stop offset="1" stop-opacity="0" />
+                <stop offset="0" stopOpacity=".3" />
+                <stop offset=".07" stopOpacity=".2" />
+                <stop offset=".32" stopOpacity=".1" />
+                <stop offset=".62" stopOpacity=".05" />
+                <stop offset="1" stopOpacity="0" />
             </linearGradient>
             <linearGradient id="c" x1="-1027.16" x2="-997.48" y1="147.64" y2="68.56" gradientTransform="matrix(1 0 0 -1 1075 158)" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#3ccbf4" />
-                <stop offset="1" stop-color="#2892df" />
+                <stop offset="0" stopColor="#3ccbf4" />
+                <stop offset="1" stopColor="#2892df" />
             </linearGradient>
         </defs>
         <path fill="url(#a)" d="M33.34 6.54h26.04l-27.03 80.1a4.15 4.15 0 0 1-3.94 2.81H8.15a4.14 4.14 0 0 1-3.93-5.47L29.4 9.38a4.15 4.15 0 0 1 3.94-2.83z" />

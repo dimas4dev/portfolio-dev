@@ -1,6 +1,6 @@
 const FuryIcon = (props) => (
-    <svg {...props} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="100%" viewBox="0 0 544 576" enable-background="new 0 0 544 576" xml:space="preserve">
+    <svg {...props} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="100%" viewBox="0 0 544 576" enableBackground="new 0 0 544 576" xmlSpace="preserve">
 <path fill="#000000" opacity="1.000000" stroke="none" 
 	d="
 M373.866516,542.976685 

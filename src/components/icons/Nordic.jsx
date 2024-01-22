@@ -1,6 +1,6 @@
 const NordicIcon = (props) => (
-    <svg {...props} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        width="100%" viewBox="0 0 653 182" enable-background="new 0 0 653 182" xml:space="preserve">
+    <svg {...props} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="100%" viewBox="0 0 653 182" enableBackground="new 0 0 653 182" xmlSpace="preserve">
         <path fill="#21262C" opacity="1.000000" stroke="none"
             d="
 M463.000000,183.000000 
