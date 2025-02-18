@@ -74,7 +74,7 @@ export const languageDatabase = {
     "experienceSectionTitle": "Experiencia laboral",
     "projectsSectionTitle": "Proyectos",
     "aboutMeSectionTitle": "Sobre mí",
-    "contactEmail": "me@dimas4dev.com",
+    "contactEmail": "damendoza98@gmail.com",
     "experiencie": [
       {
         "date": "Actualmente...",
@@ -180,7 +180,7 @@ export const languageDatabase = {
     "experienceSectionTitle": "Work Experience",
     "projectsSectionTitle": "Projects",
     "aboutMeSectionTitle": "About Me",
-    "contactEmail": "me@dimas4dev.com",
+    "contactEmail": "damendoza98@gmail.com",
     "experience": [
       {
         "date": "Currently...",
